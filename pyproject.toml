@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "racepace"
+version = "0.1.0"
+description = "RacePace — race telemetry AI: post-session analyst and (later) real-time race engineer."
+requires-python = ">=3.11"
+readme = "README.md"
+dependencies = [
+    "pydantic>=2.5",
+    "polars>=0.20",
+    "google-genai>=1.0",
+    "typer>=0.12",
+    "numpy>=1.26",
+]
+
+[project.optional-dependencies]
+acc = [
+    # Windows-only; install on the rig that runs ACC.
+    "pyaccsharedmemory>=1.0",
+]
+voice = [
+    # Real audio playback. Skip on headless rigs.
+    "sounddevice>=0.4.6",
+]
+simhub = [
+    # SimHub fallback adapter (Windows only — SimHub itself is Windows-only).
+    "websocket-client>=1.7",
+]
+fastf1 = [
+    # Real F1 telemetry from f1.com / ergast for testing the agents on real data.
+    "fastf1>=3.4",
+]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=4.1",
+]
+
+[project.scripts]
+racepace = "racepace.cli.main:app"
+
+[tool.setuptools.packages.find]
+include = ["racepace*"]
+
+[tool.pytest.ini_options]
+testpaths = ["racepace/tests"]

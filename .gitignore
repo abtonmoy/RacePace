@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+.coverage
+*.db-journal
+.env
+uv.lock
+
+# Downloaded/derived data caches — large, regenerable
+.fastf1_cache/
+voice_cache/
+references/
