@@ -277,4 +277,5 @@ Per-subsystem extension guides live in the subsystem READMEs (above).
 - **Tests run faster than wall-clock**, so all suppression timers in the live agents (engineer's 15s gap, coach's 0.8s callout gap) use **session time** (latest frame's `timestamp_s`), not `time.monotonic()`.
 - **Live audio (`sounddevice`) is optional.** Without it, the player falls back to `NullBackend` (no-op) — pipeline still runs end-to-end, no audio.
 - **`gemini-2.5-flash` thinking is disabled** for the live agents (`thinking_budget=0`) — for one-sentence radio calls deliberation just eats the output budget and truncates.
-# RacePace
+# Developer
+## Abdul Basit Tonmoy
