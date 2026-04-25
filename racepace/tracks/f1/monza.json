@@ -1,0 +1,86 @@
+{
+  "track": "monza",
+  "sim": "f1",
+  "car": "Red Bull Racing",
+  "total_length_m": 5719.0,
+  "corners": [
+    {
+      "id": 1,
+      "name": null,
+      "direction": "R",
+      "severity": 5,
+      "brake_point_m": 678.8669444444445,
+      "apex_m": 946.8669444444445,
+      "exit_m": 1015.8669444444445,
+      "target_min_speed_kph": 67.00531400966187,
+      "target_gear": 2,
+      "flat": false,
+      "notes": null
+    },
+    {
+      "id": 2,
+      "name": null,
+      "direction": "L",
+      "severity": 5,
+      "brake_point_m": 1919.8669444444445,
+      "apex_m": 2120.8669444444445,
+      "exit_m": 2195.8669444444445,
+      "target_min_speed_kph": 102.03613834422661,
+      "target_gear": 3,
+      "flat": false,
+      "notes": null
+    },
+    {
+      "id": 3,
+      "name": null,
+      "direction": "L",
+      "severity": 4,
+      "brake_point_m": 2392.8669444444445,
+      "apex_m": 2518.8669444444445,
+      "exit_m": 2578.8669444444445,
+      "target_min_speed_kph": 170.0,
+      "target_gear": 5,
+      "flat": false,
+      "notes": null
+    },
+    {
+      "id": 4,
+      "name": null,
+      "direction": "L",
+      "severity": 4,
+      "brake_point_m": 2735.8669444444445,
+      "apex_m": 2825.8669444444445,
+      "exit_m": 2878.8669444444445,
+      "target_min_speed_kph": 165.02020202020194,
+      "target_gear": 5,
+      "flat": false,
+      "notes": null
+    },
+    {
+      "id": 5,
+      "name": null,
+      "direction": "R",
+      "severity": 4,
+      "brake_point_m": 3726.8669444444445,
+      "apex_m": 3924.8669444444445,
+      "exit_m": 3948.8669444444445,
+      "target_min_speed_kph": 167.00716911764732,
+      "target_gear": 5,
+      "flat": false,
+      "notes": null
+    },
+    {
+      "id": 6,
+      "name": null,
+      "direction": "L",
+      "severity": 3,
+      "brake_point_m": 4944.866944444444,
+      "apex_m": 5143.866944444444,
+      "exit_m": 5200.866944444444,
+      "target_min_speed_kph": 186.05491310160437,
+      "target_gear": 5,
+      "flat": false,
+      "notes": null
+    }
+  ]
+}

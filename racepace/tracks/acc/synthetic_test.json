@@ -1,0 +1,47 @@
+{
+  "track": "synthetic_test",
+  "sim": "acc",
+  "car": "fixture-car",
+  "total_length_m": 4499.0,
+  "corners": [
+    {
+      "id": 1,
+      "name": null,
+      "direction": "L",
+      "severity": 5,
+      "brake_point_m": 800.0,
+      "apex_m": 1000.0,
+      "exit_m": 1031.0,
+      "target_min_speed_kph": 100.0008749805179,
+      "target_gear": 4,
+      "flat": false,
+      "notes": null
+    },
+    {
+      "id": 2,
+      "name": null,
+      "direction": "R",
+      "severity": 3,
+      "brake_point_m": 2200.0,
+      "apex_m": 2400.0,
+      "exit_m": 2431.0,
+      "target_min_speed_kph": 200.00056249406742,
+      "target_gear": 4,
+      "flat": false,
+      "notes": null
+    },
+    {
+      "id": 3,
+      "name": null,
+      "direction": "L",
+      "severity": 5,
+      "brake_point_m": 3400.0,
+      "apex_m": 3600.0,
+      "exit_m": 3631.0,
+      "target_min_speed_kph": 70.0,
+      "target_gear": 4,
+      "flat": false,
+      "notes": null
+    }
+  ]
+}
